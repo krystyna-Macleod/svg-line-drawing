@@ -1,0 +1,23 @@
+@keyframes offset {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-violet, #rainbow-indigo, #rainbow-blue, #rainbow-green, #rainbow-yellow, #rainbow-orange, #rainbow-red {
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-violet {
+  stroke-dasharray: 1950px;
+  stroke-dashoffset: 1950px;
+  animation-delay: 1s;
+}
+
+#rainbow-indigo, #rainbow-blue, #rainbow-green, #rainbow-yellow, #rainbow-orange, #rainbow-red {
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+  animation-delay: 1s;
+}
