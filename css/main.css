@@ -20,7 +20,37 @@ html {
   animation-delay: 2s;
 }
 
-#rainbow-indigo, #rainbow-blue, #rainbow-green, #rainbow-yellow, #rainbow-orange, #rainbow-red {
+#rainbow-indigo {
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+  animation-delay: 2s;
+}
+
+#rainbow-blue {
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+  animation-delay: 2s;
+}
+
+#rainbow-green {
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+  animation-delay: 2s;
+}
+
+#rainbow-yellow {
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+  animation-delay: 2s;
+}
+
+#rainbow-orange {
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+  animation-delay: 2s;
+}
+
+#rainbow-red {
   stroke-dasharray: 1900px;
   stroke-dashoffset: 1900px;
   animation-delay: 2s;
@@ -40,10 +70,10 @@ html {
 
 }
 
-.title {
+h1 {
   transform: translateX(1em);
   transform: translateY(5em);
-  color: #000;
+  color: #fff;
   animation: fade 1s linear;
 }
 
@@ -55,9 +85,14 @@ html {
 
 }
 
-#narwhal-body, #narwhal-eye {
+#narwhal-body {
   animation: whale 1s linear forwards;
   stroke-dasharray: 1950px;
   stroke-dashoffset: 1950px;
+  animation-delay: 1s;
+}
+
+#narwhal-eye {
+  animation: fade 1s linear forwards;
   animation-delay: 1s;
 }
