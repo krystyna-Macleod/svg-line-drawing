@@ -10,47 +10,50 @@ html {
 
 }
 
-#rainbow-violet, #rainbow-indigo, #rainbow-blue, #rainbow-green, #rainbow-yellow, #rainbow-orange, #rainbow-red {
-  animation: offset 2s linear forwards;
-}
-
-#rainbow-violet {
-  stroke-dasharray: 1950px;
-  stroke-dashoffset: 1950px;
-  animation-delay: 2s;
-}
-
 #rainbow-indigo {
+  animation: offset 2s linear forwards;
   stroke-dasharray: 1900px;
   stroke-dashoffset: 1900px;
   animation-delay: 2s;
 }
 
+#rainbow-violet {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1950px;
+  stroke-dashoffset: 1950px;
+  animation-delay: 2s;
+}
+
 #rainbow-blue {
+  animation: offset 2s linear forwards;
   stroke-dasharray: 1900px;
   stroke-dashoffset: 1900px;
   animation-delay: 2s;
 }
 
 #rainbow-green {
+  animation: offset 2s linear forwards;
   stroke-dasharray: 1900px;
   stroke-dashoffset: 1900px;
   animation-delay: 2s;
 }
 
 #rainbow-yellow {
+  animation: offset 2s linear forwards;
   stroke-dasharray: 1900px;
   stroke-dashoffset: 1900px;
   animation-delay: 2s;
 }
 
 #rainbow-orange {
+  animation: offset 2s linear forwards;
   stroke-dasharray: 1900px;
   stroke-dashoffset: 1900px;
   animation-delay: 2s;
 }
 
 #rainbow-red {
+  animation: offset 2s linear forwards;
   stroke-dasharray: 1900px;
   stroke-dashoffset: 1900px;
   animation-delay: 2s;
@@ -94,5 +97,6 @@ h1 {
 
 #narwhal-eye {
   animation: fade 1s linear forwards;
+  opacity: 0;
   animation-delay: 1s;
 }
